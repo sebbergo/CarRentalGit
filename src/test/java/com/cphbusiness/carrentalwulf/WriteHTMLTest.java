@@ -18,6 +18,7 @@ public class WriteHTMLTest {
 	WriteHTML myWriteHTML;
 	Garage myGarage;
 	Car myCar;
+	Car myCar2;
 	
 	public WriteHTMLTest() {
 	}
@@ -27,7 +28,9 @@ public class WriteHTMLTest {
 		myWriteHTML = new WriteHTML();
 		myGarage = new Garage();
 		myCar = new Car("Audi","A4","1.8T",22,3252);
+		myCar2 = new Car("BMW","320i","1.8T",24,2252);
 		myGarage.addCar(myCar);
+		myGarage.addCar(myCar2);
 	}
 
 	@Test
