@@ -83,7 +83,7 @@
             <configuration>
                 <tasks>
                     <echo>Using env.test.properties</echo>
-                    <copy file="index.html" tofile="/private/tmp/index.html"/>
+                    <copy file="index.html" tofile="/var/www/html/cars/index.html"/>
                     </tasks>
                 </configuration>
             </execution>
